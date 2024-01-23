@@ -3,43 +3,89 @@
 /* my CoolSite CSS variables*/
 :root {
 
-  --coolgreen: #FAFD61
-  --coolblue: #1C4BC4;
-  --cooldarkblue: #061130;
-  --coolwhite: #F4F6F8;
-  
+  --cool-green: #FAFD61;
+  --cool-blue: #1C4BC4;
+  --cool-dark-blue: #061130;
+  --cool-white: white;
+  --cool-grey: #F4F6F8;
 }
 
 /* element selectors */
 /*  Possible element selectors in the current html file
-body {}
-header {}
-main {}
-footer {}
-nav {}
 h1 {}
 h2 {}
-h6 {}
 p {}
 ul {}
 li {}
 a {} 
+img {}
 */
+body {
+  background-color: var(--cool-dark-blue);
+  color:var(--cool-white);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+main {
+  display: flex;
+  margin: 2rem;
+}
+footer {
+  background-color: var(--cool-grey);
+  color: var(--cool-dark-blue);
+}
+nav {
+  display: flex;
+}
 
+h6 {
+  color: var(--cool-green);
+}
 
+nav li a {
+  color: var(--cool-white);
+  text-decoration: none;
+}
 /* class selectors */
 /* Possible class selectors for the current html file 
-.topNav {}
-.topNavLink {}
-.bottomNavLink {}
 .logo {}
 */
-
-
+.top-nav {
+  display: flex;
+}
+.top-nav-link {
+  list-style-type: none;
+  
+  margin: 1em;
+}
+.bottom-nav {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: var(--cool-white);
+  color: var(--cool-dark-blue);
+}
+.bottom-nav-link {
+  margin: 1em;
+}
+.footer-declaration {
+  text-align: center;
+}
+.world-img {
+  max-width: 50%;
+}
 /* id selectors */
 /* Possible id selectors for the current html files 
-#letsChat {}
 */
+#letsChat {
+  background-color: var(--cool-blue);
+  color: var(--cool-white);
+  padding: 4px 6px;
+  border: 2px solid var(--cool-blue);
+  border-radius: 10%;
+}
 
 /* fancy selectors */
 /* I Don't expect to Use Fancy Selectors ever.... well maybe like an :nth-child(even) selector */
