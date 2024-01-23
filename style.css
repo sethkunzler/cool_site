@@ -1,0 +1,45 @@
+/* my CoolSite CSS page */
+
+/* my CoolSite CSS variables*/
+:root {
+
+  --coolgreen: #FAFD61
+  --coolblue: #1C4BC4;
+  --cooldarkblue: #061130;
+  --coolwhite: #F4F6F8;
+  
+}
+
+/* element selectors */
+/*  Possible element selectors in the current html file
+body {}
+header {}
+main {}
+footer {}
+nav {}
+h1 {}
+h2 {}
+h6 {}
+p {}
+ul {}
+li {}
+a {} 
+*/
+
+
+/* class selectors */
+/* Possible class selectors for the current html file 
+.topNav {}
+.topNavLink {}
+.bottomNavLink {}
+.logo {}
+*/
+
+
+/* id selectors */
+/* Possible id selectors for the current html files 
+#letsChat {}
+*/
+
+/* fancy selectors */
+/* I Don't expect to Use Fancy Selectors ever.... well maybe like an :nth-child(even) selector */
