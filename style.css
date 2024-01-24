@@ -24,6 +24,7 @@ body {
   background-color: var(--cool-dark-blue);
   color:var(--cool-white);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0px;
 }
 header {
   display: flex;
@@ -31,6 +32,7 @@ header {
 }
 main {
   display: flex;
+  justify-content: center;
   margin: 2rem;
 }
 footer {
@@ -39,6 +41,7 @@ footer {
 }
 nav {
   display: flex;
+  margin: 1rem;
 }
 
 h6 {
@@ -46,12 +49,10 @@ h6 {
 }
 
 nav li a {
-  color: var(--cool-white);
   text-decoration: none;
 }
 /* class selectors */
 /* Possible class selectors for the current html file 
-.logo {}
 */
 .top-nav {
   display: flex;
@@ -61,20 +62,39 @@ nav li a {
   
   margin: 1em;
 }
+nav.bottom-nav li a {
+  color: var(--cool-white);
+}
+.main-text {
+  max-width: 20%;
+}
 .bottom-nav {
   display: flex;
   justify-content: space-evenly;
   background-color: var(--cool-white);
   color: var(--cool-dark-blue);
+  max-height: 20%;
 }
 .bottom-nav-link {
+  list-style-type: none;
   margin: 1em;
 }
+nav.bottom-nav li a {
+  text-decoration: none;
+  color: var(--cool-blue);
+}
+nav.bottom-nav li a:hover {
+  text-decoration: underline;
+}
+
 .footer-declaration {
   text-align: center;
 }
 .world-img {
-  max-width: 50%;
+  max-width: 40%;
+}
+.logo {
+  margin: 1rem;
 }
 /* id selectors */
 /* Possible id selectors for the current html files 
